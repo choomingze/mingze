@@ -7,7 +7,10 @@ export const NavBar = () =>{
       }
       console.log(activeLink)
     return (
-        <Navbar expand="md" className='NavBar' >
+        <>
+        <div style={{height:'8vh', width:'100%', clear:'both'}}></div>
+        <Navbar expand="md" className='NavBar'  >
+            
             <Container>
                 <Navbar.Brand href="#aboutme" className='Navbar_Brand 'onClick={() => onUpdateActiveLink('aboutme')}>Ming</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -16,13 +19,14 @@ export const NavBar = () =>{
                     
                 
                 <Nav className="ms-auto">
-                    <Nav.Link href="#aboutme" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>Homeers</Nav.Link>
+                    <Nav.Link href="#aboutme" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>About Me</Nav.Link>
                     <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                     <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experinces')}>Experinces</Nav.Link>
                     <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
+        </>
 
     )
 
