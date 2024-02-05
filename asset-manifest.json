@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/mingze/static/css/main.4febde3e.css",
-    "main.js": "/mingze/static/js/main.83735f7c.js",
+    "main.css": "/mingze/static/css/main.d889fd49.css",
+    "main.js": "/mingze/static/js/main.6bd6b87f.js",
     "static/js/787.eee25d74.chunk.js": "/mingze/static/js/787.eee25d74.chunk.js",
+    "static/media/backgroundImg2.jpg": "/mingze/static/media/backgroundImg2.d2df4283b0301af26731.jpg",
+    "static/media/MingZeGraduate.jpeg": "/mingze/static/media/MingZeGraduate.bcec9136f5c64ac4f97c.jpeg",
+    "static/media/CentraNo2-Book.ttf": "/mingze/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/keysight.png": "/mingze/static/media/keysight.2c592c9ee8f02671c36e.png",
     "static/media/logo.svg": "/mingze/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mingze/index.html",
-    "main.4febde3e.css.map": "/mingze/static/css/main.4febde3e.css.map",
-    "main.83735f7c.js.map": "/mingze/static/js/main.83735f7c.js.map",
+    "main.d889fd49.css.map": "/mingze/static/css/main.d889fd49.css.map",
+    "main.6bd6b87f.js.map": "/mingze/static/js/main.6bd6b87f.js.map",
     "787.eee25d74.chunk.js.map": "/mingze/static/js/787.eee25d74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4febde3e.css",
-    "static/js/main.83735f7c.js"
+    "static/css/main.d889fd49.css",
+    "static/js/main.6bd6b87f.js"
   ]
 }
