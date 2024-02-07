@@ -30,9 +30,9 @@ export const Experience = () =>{
             paddingTop:'10vh'
         }}>
         <div className="container">
-            <h2 style={{marginBottom:'4vh'}}>Expeeriences</h2>   
+            <h2 style={{marginBottom:'4vh'}}>Experiences</h2>   
             
-            <div className="row exp-backL" style={{ border:'red solid 3px',borderRadius:'15px'}}>
+            <div className="row exp-backL" style={{}}>
             <div className="col-3" style={{ width: "25%", display: 'flex', justifyContent: 'center' ,alignItems:'center'}}>
                 <div className="skill-bx wow zoomIn" style={{ justifyContent: 'center' }}>
                     <div>
@@ -74,7 +74,7 @@ export const Experience = () =>{
 
             <div style={{height:'10vh', width:'100%', clear:'both'}}></div>
 
-            <div className="row exp-backR" style={{ border:'red solid 3px',borderRadius:'15px'}}>
+            <div className="row exp-backR">
             
                 <div className="col-9">
                 <div className="skill-bx wow zoomIn" style={{ borderRadius: '15px', textAlign: 'left', padding: '20px 0', marginLeft: '60px', cursor: 'pointer', transition: 'opacity 0.3s ease', height:'60vh' }} onClick={toggleExpand2}>

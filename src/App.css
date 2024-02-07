@@ -14,6 +14,21 @@
 	font-weight: 400;
 }
 
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  /* Add any additional styles you want for h2 elements */
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; /* Adjust as needed */
+  color: #333; /* Or any color that complements your design */
+  line-height: 1.6; /* Adjust line height for readability */
+  /* Add any additional styles you want for p elements */
+}
 * {
   margin: 0;
   padding: 0;
@@ -76,16 +91,24 @@ body{
 
 /************ NavBar css *******888*/
 .NavBar{
-  background-color:red;
+  background-color:#fff;
   align-items: center;
   justify-content: center;
   position: fixed;
   height: 10vh;
   width: 100%;
+  border-bottom: solid 2px #92CDDC;
 }
 .Navbar_Brand {
-  color:red;
+  font-weight: 800;
+  color: #000 !important;
   text-align: left;
+  font-family: 'Pacifico', cursive; /* Using Pacifico font for a decorative touch */
+  font-size: 2rem; /* Adjust the font size as needed */
+  text-transform: uppercase; /* Optional: Convert text to uppercase */
+  letter-spacing: 2px; /* Optional: Add letter spacing for better readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle text shadow */
+  /* Add any additional styles you want for .Navbar_Brand */
 }
 
 nav.navbar {
@@ -104,8 +127,9 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #fff !important;
+  font-weight: 600;
+  color: #000 !important;
+  font-family: 'Pacifico', cursive;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -241,12 +265,59 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 0 !important;
 }
 
+/************ Aboutme css *******888*/
+.abtme-card {
+  width: 85%;
+  border: #92CDDC solid 3px;
+  border-radius: 15px;
+  padding: 70px 0;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(45deg, #f0f0f0, #ffffff); /* Gradient background */
+  /* Add any additional styles you want for .abtme-card */
+}
+
+/************ Skills css *******888*/
+.skill-card{
+  border:solid 3px #92CDDC;
+  background-color:#f0eded;
+   border-radius:15px;
+   margin-right:auto;
+   box-shadow:5px 10px 18px #d2d0d0;
+}
+
+/************ Experience css *******888*/
+
 .exp-backL{
   /* background: #19376d; */
-  background: linear-gradient(90deg, red 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, #AED9E0 0%, rgba(25, 55, 109, 0) 100%);
+  border: #92CDDC solid 3px;
+  border-radius:15px;
+  box-shadow:5px 10px 18px #d2d0d0;
 }
 
 .exp-backR{
   /* background: #19376d; */
-  background: linear-gradient(-90deg, red 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(-90deg, #AED9E0 0%, rgba(25, 55, 109, 0) 100%);
+  border: #92CDDC solid 3px;
+  border-radius:15px;
+  box-shadow:5px 10px 18px #d2d0d0;
+}
+
+
+/************ Project css *******888*/
+
+.row>* {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.swiper-card {
+  border: #92CDDC solid 3px;
+  border-radius: 15px;
+  padding: 20px;
+  height: 60vh;
+  background: linear-gradient(-180deg, #AED9E0 0%, rgba(25, 55, 109, 0) 100%);
+  cursor: pointer;
+  transition: transform 0.3s;
+  box-shadow:5px 10px 18px #d2d0d0;
 }

@@ -53,7 +53,8 @@ export const AboutMe = () =>{
                 height:'95vh',                
                 width:'100%',             
                 display:'flex',
-                backgroundImage: `url(${mingZeGraduate2})`, backgroundSize: '100% 100%'
+                backgroundImage: `url(${mingZeGraduate2})`, backgroundSize: '100% 100%',
+                marginTop:'6vh'
             }}>
         <div>
             <div className="row" style={{
@@ -78,11 +79,11 @@ export const AboutMe = () =>{
                 </div>  
 
                 <div className="col-12" style={{width:"50%", border:'red 1px',}}>
-                    <div className="skill-bx wow zoomIn" style={{width:"85%", border:'red solid 3px', borderRadius:'15px',padding:'70px 0',backgroundColor:'#e6e6e6'}}>
+                    <div className="skill-bx wow zoomIn abtme-card">
                         
 
                         <h1>{`Hi! I'm Ming Ze Choo`}</h1>
-                        <h2>{'💻'} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "React Developer", "Full Stack Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h2>
+                        <h3>{'💻'} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "React Developer", "Full Stack Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h3>
                         <p style={{width:'90%',margin:'auto', fontWeight:'450'}}>Computer Science with Artificial Intelligence graduate (Second Upper, 2:1) from the University of
                             Nottingham.</p><br/>
                         <p style={{width:'80%',margin:'auto',}}>I am a dedicated and hardworking individual, consistently pursuing self-improvement and

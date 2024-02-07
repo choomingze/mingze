@@ -5,10 +5,10 @@ export const NavBar = () =>{
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
       }
-      console.log(activeLink)
+    //   console.log(activeLink)
     return (
         <>
-        <div style={{height:'8vh', width:'100%', clear:'both'}}></div>
+        <div style={{height:'2vh', width:'100%', clear:'both'}}></div>
         <Navbar expand="md" className='NavBar'  >
             
             <Container>
@@ -21,8 +21,10 @@ export const NavBar = () =>{
                 <Nav className="ms-auto">
                     <Nav.Link href="#aboutme" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>About Me</Nav.Link>
                     <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                    <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experinces')}>Experinces</Nav.Link>
+                    <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experinces')}>Experiences</Nav.Link>
                     <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                    <Nav.Link href="#contactme" className={activeLink === 'contactme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contactme')}>Get In Touch</Nav.Link>
+
                 </Nav>
             </Container>
         </Navbar>
